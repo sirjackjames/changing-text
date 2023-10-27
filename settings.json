@@ -1,7 +1,7 @@
 {
     "name": "Changing Text Animation",
     "handle": "changing-text",
-    "author": "yassine-bouanane",
+    "author": "alpacapp",
     "category": "basic",
     "description": "Animated text to make sentenses like . Supported effects: typewriter, falling letters, sliding text, 3D rotations & opacity",
     "entry": "block.liquid",
