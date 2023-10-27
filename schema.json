@@ -1,0 +1,104 @@
+{
+    "elements": [
+      {
+      	"name": "Wrapper",
+      	"handle": "wrapper",
+      	"customizations": "all",
+      	"hoverCustomizations": true,
+      	"defaults": {},
+      },
+      {
+      	"name": "Static Text",
+      	"handle": "static",
+      	"customizations": "all",
+      	"hoverCustomizations": true,
+      	"defaults": {},
+      },
+      {
+      	"name": "Changing Text",
+      	"handle": "changing",
+      	"customizations": "all",
+      	"hoverCustomizations": true,
+      	"defaults": {},
+      }
+    ],
+	"properties"	: [
+		{
+			"name"			: "Prefix Content",
+			"variable"		: "prefix",
+			"type"			: "text",
+            "multiline"		: true,
+			"default"		: "We are "
+		},
+        {
+			"name"			: "Content",
+			"variable"		: "content",
+            "multiline"		: true,
+			"type"			: "text",
+			"default"		: "Photographers\nWeb designers\nFilmmakers\nArtists"
+		},
+        {
+			"name"			: "Suffix Content",
+			"variable"		: "suffix",
+			"type"			: "text",
+            "multiline"		: true,
+			"default"		: "."
+		},
+        {
+			"name"			: "Effect",
+			"variable"		: "effect",
+			"type"			: "dropdown",
+            "options"		: [
+              {
+                "name":"Typewriter",
+                "value":"typewriter"
+              },
+              {
+                "name":"Falling Letters",
+                "value":"fallingLetters"
+              },
+              {
+                "name":"Sliding Text (Down)",
+                "value":"slidingTextDown"
+              },
+              {
+                "name":"Sliding Text (Up)",
+                "value":"slidingTextUp"
+              },
+              {
+                "name":"Opacity",
+                "value":"opacity"
+              },
+              {
+                "name":"Text Rotation (X-axis)",
+                "value":"rotationX"
+              },
+              {
+                "name":"Text Rotation (Y-axis)",
+                "value":"rotationY"
+              }
+            ],
+			"default"		: "fallingLetters"
+		},
+        {
+			"name"			: "Duration for each text",
+			"variable"		: "duration",
+			"type"			: "slider",
+            "cssVariable"		: true,
+            "unit"			: "s",
+            "min"			: 0.5,
+            "max"			: 5,
+			"default"		: 1.0
+		},
+        {
+			"name"			: "Transition duration",
+			"variable"		: "transition",
+			"type"			: "slider",
+            "cssVariable"		: true,
+            "unit"			: "s",
+            "min"			: 0.01,
+            "max"			: 2,
+			"default"		: 0.75
+		},
+	]
+}

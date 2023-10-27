@@ -1,0 +1,11 @@
+{
+    "name": "Changing Text Animation",
+    "handle": "changing-text",
+    "author": "yassine-bouanane",
+    "category": "basic",
+    "description": "Animated text to make sentenses like . Supported effects: typewriter, falling letters, sliding text, 3D rotations & opacity",
+    "entry": "block.liquid",
+    "stylesheet": "style.css",
+    "script": "script.js",
+    "icon": "match_word"
+}
