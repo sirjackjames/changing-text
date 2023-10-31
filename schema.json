@@ -5,7 +5,7 @@
       	"handle": "wrapper",
       	"customizations": "all",
       	"hoverCustomizations": true,
-      	"defaults": {},
+      	"defaults": {"font-size": 1.4},
       },
       {
       	"name": "Static Text",
