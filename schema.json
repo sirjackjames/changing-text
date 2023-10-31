@@ -88,7 +88,7 @@
             "unit"			: "s",
             "min"			: 0.5,
             "max"			: 5,
-			"default"		: 1.0
+			"default"		: 2.0
 		},
         {
 			"name"			: "Transition duration",
